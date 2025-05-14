@@ -4,6 +4,18 @@ double add(double angkaPertama, double angkaKedua) {
 	return angkaPertama+angkaKedua;
 }
 
+double sub(double angkaPertama, double angkaKedua) {
+        return angkaPertama-angkaKedua;
+}
+
+double mul(double angkaPertama, double angkaKedua) {
+        return angkaPertama*angkaKedua;
+}
+
+double div(double angkaPertama, double angkaKedua) {
+        return angkaPertama/angkaKedua;
+}
+
 int main () {
 	double angkaPertama, angkaKedua;
 	int input = 0;
