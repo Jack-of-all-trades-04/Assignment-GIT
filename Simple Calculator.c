@@ -4,6 +4,10 @@ double add(double angkaPertama, double angkaKedua) {
 	return angkaPertama+angkaKedua;
 }
 
+double div(double angkaPertama, double angkaKedua) {
+	return angkaPertama / angkaKedua;
+}
+
 int main () {
 	double angkaPertama, angkaKedua;
 	int input = 0;
@@ -26,6 +30,7 @@ int main () {
 			printf ("Hasil %26s: %.2lf"," ", mul(angkaPertama, angkaKedua));
 			break;
 		case 3 :
+			printf ("Hasil %26s: %.2lf"," ", div(angkaPertama, angkaKedua));
 			break;
 		case 4 :
 			break;
