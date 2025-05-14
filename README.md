@@ -1,3 +1,15 @@
+# Documentation
+
+This program is a simple calculator which can do addition, subtraction, multiplication, and division.
+# Team Roles
+1. Novan Agung Wicaksono (Initializing the repository and managing function of addition)
+
+2. Ferdyano (Managing function of multiplication)
+
+3. Nabil Putra Nurfariz (Managing function of division)
+
+4. Mohamad Rizky Alamsyah (Managing function of subtraction and updating some documentation)
+
 # Assignment-GIT
 Assignment collaborative work using Git
 
