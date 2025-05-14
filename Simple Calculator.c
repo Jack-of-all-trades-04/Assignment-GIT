@@ -35,10 +35,13 @@ int main () {
 			printf ("Hasil %26s: %.2lf"," ", add(angkaPertama, angkaKedua));
 			break;
 		case 2 :
+			printf ("Hasil %26s: %.2lf"," ", sub(angkaPertama, angkaKedua));
 			break;
 		case 3 :
+			printf ("Hasil %26s: %.2lf"," ", mul(angkaPertama, angkaKedua));
 			break;
 		case 4 :
+			printf ("Hasil %26s: %.2lf"," ", div(angkaPertama, angkaKedua));
 			break;
 	}
 	return 0;
