@@ -32,17 +32,17 @@ int main () {
 	scanf ("%lf", &angkaKedua);
 	switch (input) {
 		case 1 :
-			printf ("Hasil %26s: %.2lf"," ", add(angkaPertama, angkaKedua));
+			printf ("Hasil %26s: %.2lf"," ", add(angkaPertama, angkaKedua)); //fungsi pertambahan
 			break;
 		case 2 :
-			printf ("Hasil %26s: %.2lf"," ", sub(angkaPertama, angkaKedua));
+			printf ("Hasil %26s: %.2lf"," ", sub(angkaPertama, angkaKedua)); //fungsi pengurangan
 			break;
 		case 3 :
-      		printf ("Hasil %26s: %.2lf"," ", mul(angkaPertama, angkaKedua));
+      		printf ("Hasil %26s: %.2lf"," ", mul(angkaPertama, angkaKedua)); //fungsi perkalian
 			break;
 		case 4 :
       		if (angkaKedua == 0){
-				printf ("Tidak bisa membagi dengan 0.");
+				printf ("Tidak bisa membagi dengan 0.");  
 			} else{
 				printf ("Hasil %26s: %.2lf"," ", div(angkaPertama, angkaKedua));
 			}
